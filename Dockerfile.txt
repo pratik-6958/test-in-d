@@ -1,0 +1,4 @@
+FROM ubuntu
+maintainer pratik@gmail.com
+run apt update -y && apt install nginx -y
+expose 8080
